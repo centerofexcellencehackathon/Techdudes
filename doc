@@ -1,0 +1,130 @@
+PROJECT DOCUMENT
+
+[Advanced Encryption by TechDudes]
+
+[16-11-2019]
+
+
+Project background / introduction
+
+-Currently in market, there are multiple methods of encryption of a particular message, which make use of multiple levels of keys
+-But since some of them make the use of the same process, which can be predictable after careful analysis, makes the messages more vulnerable to e-intruders.
+-Therefore, we need a new approach towards encryption which is more dependable and the encryption is more dynamic.
+-Here we are making the use of C language in order to deploy our code.
+
+
+Project objective:
+We are trying to build a code capable to convert a text input from an input device (such as keyboard), 
+Recording its time of input and using it for the algorithm to encrypt it, and trying to decrypt the encrypted message making use of the same algorithm and time of entering the message, without the making use of any key.
+
+
+Business case / Benefits of doing this project
+
+-We are making this project in order to create a method of encryption which does not make itself vulnerable to e-intruders easily, and the outcome of encryption also changes with time.
+-This project can be helpful in many ways as it changes the method of encryption each time, so this can be implemented in many different ways.
+-This method is not only limited to texts but any type of data can be encrypted by converting it to binary format and using the same method.
+
+
+Objectives and Scopes:
+
+-To make use of algorithms which are more dynamic.
+-To eliminate the use of keys for encryption and decryption.
+-This method will prevent the e-intruders from cracking multiple messages at a single time.
+-This will make the encryption and decryption more accurate and work much faster.
+-Even after multiple times of analysis of the cypher text, the e-intruders can never decode the pattern.
+
+PROGRAM CONTENTS:
+
+Program 1:Char_en.c
+ -This program illustrates the process of encoding a single character using our algorithm.
+
+Program 2:Char_de.c
+-This program illustrates the process of decoding a single character using our algorithm.
+
+Program 3:text.c
+-This program illustrates the process of encoding and decoding a text where the time of sending message is manually given as the input while decoding.
+Program 4:finaltext.c
+-This program illustrates the process of encoding and decoding a text where the time of sending message is hidden from both the sender and the receiver but it is taken as the input while decoding in the algorithm as default .
+
+How to deploy the program?
+
+For Program 1:
+
+1-Open any C compiler and run the program.
+2- Input the character to encrypt.
+3-Note down the cypher and the time displayed.
+
+For program 2:
+
+1-Open any C compiler and run the program.
+2- Input the cypher and the time of encryption (refer to program 1) to decrypt 
+3- The original character will be displayed.
+
+For program 3:
+
+1- Open any C compiler and run the program.
+2- Enter 1 for encrypting the text/ 2 for decrypting the cypher text.
+ (FOR ENCRYPTION)
+3- Input the text to encrypt. 
+4- After encryption a cypher text is displayed along with the time.
+5- Note this cypher text along with time.
+(FOR DECRYPTION)
+3- Input the recorded cypher text along with the time displayed while encryption.
+4-The original text message before encrypting will be displayed if (3) is followed.
+
+For program 4:
+
+1- Open any C compiler and run the program.
+2- Enter 1 for encrypting the text/ 2 for decrypting the cypher text.
+ (FOR ENCRYPTION)
+3- Input the text to encrypt. 
+4- After encryption a cypher text is displayed.
+5- Note this cypher text.
+(FOR DECRYPTION)
+3- Input the recorded cypher text displayed while encryption.
+4-The original text message before encrypting will be displayed if (3) is followed.
+
+
+
+
+
+
+Outcomes/result:
+
+At the end of this Project, the program must be able to encrypt a text message and decrypt it accurately without making any delay.
+
+
+Constraints:
+
+-This method makes use of time of message sent while encryption, so the same should be fed into the algorithm at the time of decryption.
+
+
+
+Time Period to build the project:
+
+-24 Hours.
+
+
+Risks- Analysis, prevention and management:
+
+Risk-As long as the algorithm remains secured, the cypher text cannot be decrypted.
+Prevention-Ensuring the algorithm stays secure and hidden.
+
+
+
+Project sponsors:
+
+-Virtusa
+-K-tech
+-KSCST
+-IISc,Bangalore
+-MSRIT
+
+Project team And Roles:
+
+Sharath R (Lead Programmer)
+Dhanush P V (Supportive)
+Anurag Mahana (Supportive)
+
+
+
